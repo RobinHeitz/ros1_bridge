@@ -1,5 +1,12 @@
 # Bridge communication between ROS 1 and ROS 2
 
+This is forked from 
+https://github.com/smith-doug/ros1_bridge
+
+I branch action_bridge_humble, I change the topic names in simple_ros1_to_2 bridge
+
+--
+
 This package provides a network bridge which enables the exchange of messages between ROS 1 and ROS 2.
 
 The bridge is currently implemented in C++ as at the time the Python API for ROS 2 had not been developed.
